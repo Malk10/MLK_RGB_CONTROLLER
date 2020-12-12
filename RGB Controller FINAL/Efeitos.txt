@@ -1,0 +1,35 @@
+Fade:
+
+if(fcor==1){
+     fcor=0;
+     Lred=(rand()/327.67);
+     Lgreen=(rand()/327.67);
+     Lblue=(rand()/327.67);
+    }
+  
+   if(contador==1){
+   
+     if(ciclo1>=5){ciclo1-=5;}
+     if(ciclo2>=5){ciclo2-=5;}
+     if(ciclo3>=5){ciclo3-=5;}
+     if(ciclo1<5){ciclo1=0;}
+     if(ciclo2<5){ciclo2=0;}
+     if(ciclo3<5){ciclo3=0;}
+     delay_ms(25);
+    }
+    if(contador==0){
+      if(ciclo1<Lred){ciclo1+=5;}
+      if(ciclo2<Lgreen){ciclo2+=5;}
+      if(ciclo3<Lblue){ciclo3+=5;}
+     if(ciclo1>Lred){ciclo1=Lred;}
+     if(ciclo2>Lgreen){ciclo2=Lgreen;}
+     if(ciclo3>Lblue){ciclo3=Lblue;}
+     delay_ms(25);
+    }
+    if(ciclo1==0 && ciclo2==0 && ciclo3==0){contador=0;}
+    inttostr(Lred,auxSTR);
+    lcd_out(1,1,auxSTR);
+    inttostr(Lgreen,auxSTR);
+    lcd_out(1,8,auxSTR);
+    inttostr(Lblue,auxSTR);
+    lcd_out(2,1,auxSTR);

@@ -1,0 +1,13 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F628A -DL -O11111114 -fo20 -N"C:\Users\arcar\OneDrive\Área de Trabalho\RGB Controller FINAL\MLK_RGB_Controller.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\arcar\OneDrive\Área de Trabalho\RGB Controller FINAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "MLK_RGB_Controller.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CStdlib.mcl" "__Lib_Conversions.mcl" "__Lib_Button.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 208 [bytes], Available ROM: 2048 [bytes]	 
+diagnostics: 0	122	Compilation Started	MLK_RGB_Controller.c
+hint: 0	1004	interrupt handler (Interrpcion at 0x0004)	MLK_RGB_Controller.c
+warning: 415	1503	Result is not defined in function: 'controlMenu'	MLK_RGB_Controller.c
+diagnostics: 458	123	Compiled Successfully	MLK_RGB_Controller.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RAM (bytes): 150 (72%)  Free RAM (bytes): 58 (28%)	Used RAM (bytes): 150 (72%)  Free RAM (bytes): 58 (28%)
+hint: 0	1144	Used ROM (program words): 2037 (99%)  Free ROM (program words): 11 (1%)	Used ROM (program words): 2037 (99%)  Free ROM (program words): 11 (1%)
+diagnostics: 0	125	Project Linked Successfully	MLK_RGB_Controller.mcppi
+diagnostics: 0	128	Linked in 32 ms	 
+diagnostics: 0	129	Project 'MLK_RGB_Controller.mcppi' completed: 250 ms	 
+diagnostics: 0	103	Finished successfully: 03 dez 2020, 14:09:28	MLK_RGB_Controller.mcppi
